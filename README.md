@@ -10,3 +10,5 @@ enter element at 3 index : 7
 enter element at 4 index : 9
 Sorted even array : 1 3 9
 Sorted odd array : 4 7
+
+7
