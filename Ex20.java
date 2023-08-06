@@ -11,12 +11,12 @@ public class Ex20 {
 int e=0;
 int o=0;
 if(l%2==0){
-     e=(l/2)-1;
-    o=(l/2)-1;
+     e=(l/2);
+    o=(l/2);
 }
 else{
-    e=(l/2);
-     o=(l/2)-1;
+    e=(l/2)+1;
+     o=(l/2);
 }
 int even[]=new int[e];
 int odd[]=new int[o];
@@ -55,7 +55,7 @@ System.out.printf("odd position element %s",Arrays.toString(odd));
 //for(int j=0;j<o;j++){
 //    System.out.println(odd[j]);
 //}
-System.out.println("2nd largest element"+a[l-2]);
+System.out.println("\n2nd largest element"+a[l-2]);
 }
   
     public static void main(String[] args) {
